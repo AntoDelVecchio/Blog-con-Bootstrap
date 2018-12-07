@@ -46,22 +46,17 @@ body{
 	width: 400px;
 }
 
-.right-column{
-	background-color: rgba(255, 204, 188, 1);
-}
-
 #img-post{
 	float: left;
 }
 
-.image{
-	margin-top: 2rem;
-	margin-right: 2rem;
-	width: 300px;
+#text-post{
+	float: right;
 }
 
-#text{
-	float: right;
+.image{
+	margin-top: 2rem;
+	width: 300px;
 }
 
 @media(max-width: 600px){
@@ -79,4 +74,14 @@ body{
 		margin-right: 1rem;
 		width: 270px;
 	}
+
+	.avatar{
+		float: left;
+	}
+
+	.form-control{
+		float: right;
+		width: 80%;
+	}
+
 }
