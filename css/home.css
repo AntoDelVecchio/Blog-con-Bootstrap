@@ -59,6 +59,17 @@ body{
 	width: 300px;
 }
 
+#right-column{
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 1rem;
+	background-color: rgba(255, 204, 188, 1);
+}
+
+.buscador{
+	margin: 0.5rem;
+	display: inline-flex;
+}
+
 @media(max-width: 600px){
 	.redes-sociales{
 		margin-left: 3rem;
