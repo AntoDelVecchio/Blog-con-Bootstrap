@@ -18,7 +18,7 @@ body{
 	margin-bottom: 3rem !important;
 }
 
-.img-social{
+.icons{
 	width: 40px;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 .container-article{
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 0px 10px 10px;
 	margin-top: 1rem;
 	background-color: rgba(255, 204, 188, 0.5);
 }
@@ -47,6 +47,7 @@ body{
 }
 
 #img-post{
+	margin-left: 0.5rem;
 	float: left;
 }
 
@@ -60,9 +61,10 @@ body{
 }
 
 #right-column{
-	border-radius: 10px 10px 10px 10px;
+	max-height: 65rem;
+	border-radius: 0px 10px 10px 0px;
 	margin-top: 1rem;
-	background-color: rgba(255, 204, 188, 1);
+	background-color: rgba(255, 204, 188, 0.5);
 }
 
 .buscador{
@@ -81,9 +83,16 @@ body{
 	}
 
 	.video{
-		margin-left: 1.5rem;
+		margin-bottom: 1rem;
+		margin-top: -2rem;
+		margin-left: 1rem;
 		margin-right: 1rem;
-		width: 270px;
+		width: 300px;
+	}
+
+	.image{
+		margin-bottom: -1rem;
+		margin-left: 1rem;
 	}
 
 	.avatar{
@@ -93,6 +102,10 @@ body{
 	.form-control{
 		float: right;
 		width: 80%;
+	}
+
+	#right-column{
+		display: none;
 	}
 
 }
